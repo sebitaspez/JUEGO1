@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Juego - ¿Quién es ese?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="fondo"></div>
+
+  <div class="contenido1">
+    <h1>¿Quién es ese?</h1>
+  </div>
+
+  <div class="contenido2">
+    <textarea id="respuesta" placeholder="Escribe tu respuesta aquí..."></textarea>
+    <button id="btn-enviar">Enviar</button>
+  </div>
+
+  <div class="mensaje" id="mensaje">
+    <div class="mensaje__box">
+      <p id="texto-mensaje"></p>
+      <div class="mensaje__botones">
+        <button id="btn-intentar">Intentar de nuevo</button>
+        <button id="btn-avanzar">Avanzar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="audio-player">
+  <button id="btn-play">▶️</button>
+</div>
+
+<audio id="audio" src="assets/audiocucho.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
